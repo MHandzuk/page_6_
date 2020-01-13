@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <script src="jquery-1.9.1.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- <a href="#" class="menu-btn">≡</a> -->
+        <nav class="menu-list">
+          <a href="main" class="menu_text"
+            ><h1 class="menu_text_1">MY ORDERS</h1></a
+          >
+          <a href="#news" class="menu_text"
+            ><h1 class="menu_text_1">MY DETAILS</h1></a
+          >
+          <a href="#contacts" class="menu_text"
+            ><h1 class="menu_text_1">ADDRESS BOOK</h1></a
+          >
+          <a href="#portfolio" class="menu_text"
+            ><h1 class="menu_text_1">PAYMENT METHODS</h1></a
+          >
+          <a href="#items" class="menu_text"
+            ><h1 class="menu_text_1">SAVED ITEMS</h1></a
+          >
+        </nav>
+      </div>
+      <div class="content">
+        <section class="main">
+          <h2 class="account">MY ACCOUNT</h2>
+          <div class="main_1">
+            <div class="main_2">
+              <div class="main_text">
+                <p class="ordered">You haven’t ordered anything yet!</p>
+                <a href="#" class="button" id="button_13">GO TO SHOPPING</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news">
+          <div class="news_1">
+            <div class="news_1_details"><h1>MY DETAILS</h1></div>
+            <div class="news_name">
+              <div class="news_name_left">
+                <div class="fist_name"><h2>First Name</h2></div>
+                <form class="news_form_1">
+                  <input class="input" type="text" placeholder="Pablo" />
+                </form>
+              </div>
+              <div class="news_right">
+                <div class="last_name"><h2>Last Name</h2></div>
+                <form class="news_form_2">
+                  <input class="input" type="text" placeholder="Pablo" />
+                </form>
+              </div>
+            </div>
+            <div class="news_adress">
+              <div class="news_adress_1"><h2>E-mail address</h2></div>
+              <form class="news_form_3">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="hellokitty@gmail.com"
+                />
+              </form>
+            </div>
+            <div class="days">
+              <div class="days_1">
+                <div class="days_1_text">Day</div>
+                <form class="days_1_form">
+                  <input
+                    class="input"
+                    type="number"
+                    min="01"
+                    max="31"
+                    placeholder="22"
+                  />
+                </form>
+              </div>
+              <div class="days_2">
+                <div class="days_2_text">Month</div>
+                <!-- <form class="days_2_form">
+                  <input class="input" type="month" placeholder="April" />
+                </form> -->
+                <select class="days_2_form">
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                </select>
+              </div>
+              <div class="days_3">
+                <div class="days_3_text">Year</div>
+                <form class="days_1_form">
+                  <input
+                    class="input"
+                    type="number"
+                    min="1900"
+                    max="2020"
+                    placeholder="1991"
+                  />
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <h2>Контакты</h2>
+        </section>
+        <section class="portfolio">
+          <h2>Портфолио</h2>
+        </section>
+        <section class="items"><h2>SAVED ITEMS</h2></section>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

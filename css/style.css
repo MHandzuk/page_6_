@@ -119,6 +119,10 @@ section {
   color: #333333;
   margin-bottom: 20px;
 }
+
+.main_text:hover {
+  opacity: 0.8;
+}
 .ordered {
   margin-bottom: 25px;
 }
@@ -214,4 +218,195 @@ section {
   line-height: 29px;
   position: fixed;
   color: #000000;
+}
+.account:hover {
+  opacity: 0.8;
+}
+.news {
+  width: 463px;
+  height: 387.82px;
+  background: #e0e0e0;
+}
+
+.news_1 {
+  padding: 19px 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news_1_details {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+
+.news_name {
+  display: flex;
+  flex-direction: row;
+}
+.news_name_left {
+  margin-right: 60px;
+}
+.fist_name,
+.last_name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input_1 {
+  width: 164.1px;
+  height: 35px;
+  margin-bottom: 18px;
+  line-height: 20px;
+}
+
+.news_adress_1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input_2 {
+  width: 387.85px;
+  height: 35px;
+  margin-bottom: 18px;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+}
+.days_1,
+.days_2 {
+  margin-right: 65px;
+}
+
+.input_3,
+.days_2_form {
+  width: 97.05px;
+  height: 35px;
+  color: #c1b7b7;
+  margin-bottom: 45px;
+}
+#button_14 {
+  width: 182px;
+  height: 43px;
+  margin-top: 61px;
+  background: #140202;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-decoration: none;
+  color: #faf3f3;
+}
+
+.button_14_1 {
+  margin: 0 auto;
+  /* text-align: center;
+  align-items: center; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+/*  */
+.contacts {
+  width: 458px;
+  height: 700.23px;
+  background: #e0e0e0;
+  margin-top: 300px;
+}
+.contacts_1 {
+  padding: 15px 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts_1_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.country_1,
+.fullname,
+.address_1,
+.address_2,
+.city_1,
+.zip_1,
+.mobile_1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.country_selector {
+  width: 387.85px;
+  height: 35px;
+}
+.input_5 {
+  width: 387.85px;
+  height: 35px;
+  margin-bottom: 7px;
+}
+.check {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.check_1,
+.check_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.check_text_1,
+.check_text_2 {
+  margin-left: 5px;
+}
+.check_text_2 {
+  margin-bottom: 18px;
+}
+#button_15 {
+  text-decoration: none;
+  /* margin-top: 38px; */
+}
+#button_15:hover,
+.button_15:hover {
+  opacity: 0.9;
+}
+.button_15 {
+  width: 182px;
+  height: 43px;
+  margin-top: 61px;
+  background: #140202;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-decoration: none;
+  color: #faf3f3;
+  border: none;
 }

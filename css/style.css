@@ -56,19 +56,254 @@ body {
   color: #000;
   background: #e5e5e5;
 }
-section {
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  /* width: 30%;
+  height: 300px; */
+  width: 390px;
+  height: 50px;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  /* padding: 22px 16px; */
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+
+  background: #e0e0e0;
+  width: 390px;
+  height: 50px;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #c1b7b7;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  border-left: 18px solid #000;
+  background-color: #c1b7b7;
+
+  opacity: 0.8;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  /* width: 70%; */
+  border-left: none;
+  margin-left: 200px;
+}
+
+.main {
+  padding-top: 30px;
+}
+.main_1 {
+  width: 558px;
+  height: 398px;
+  background: #e0e0e0;
+  margin-top: 16%;
+}
+.main_2 {
+  padding: 27% 25%;
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  /* background: #e0e0e0; */
+}
+.main_text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.main_text:hover {
+  opacity: 0.8;
+}
+.ordered {
+  margin-bottom: 25px;
+}
+#button_13 {
+  width: 192px;
+  height: 43px;
+  background-color: #000;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
+  border: 17px #000 solid;
+  margin-left: 10%;
+}
+.content {
+  transition: 0.5s;
+  position: relative;
+  z-index: 0;
+  /* transform: translateX(30%); */
+}
+.content_active {
+  transform: translateX(30%);
+}
+#button_10 {
+  width: 300px;
+  height: 43px;
+  margin-top: 61px;
+  background: #140202;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.account {
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  position: fixed;
+  color: #000000;
+}
+.account:hover {
+  opacity: 0.8;
+}
+
+.news {
+  width: 463px;
+  height: 387.82px;
+  background: #e0e0e0;
+}
+
+.news_1 {
+  padding: 19px 35px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news_1_details {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 18px;
+}
+
+.news_name {
+  display: flex;
+  flex-direction: row;
+}
+.news_name_left {
+  margin-right: 60px;
+}
+.fist_name,
+.last_name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input_1 {
+  width: 164.1px;
+  height: 35px;
+  margin-bottom: 18px;
+  line-height: 20px;
+}
+
+.news_adress_1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input_2 {
+  width: 387.85px;
+  height: 35px;
+  margin-bottom: 18px;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+}
+.days_1,
+.days_2 {
+  margin-right: 50px;
+}
+
+.input_3,
+.days_2_form {
+  width: 97.05px;
+  height: 35px;
+  color: #c1b7b7;
+  margin-bottom: 45px;
+}
+#button_14 {
+  width: 182px;
+  height: 43px;
+  margin-top: 61px;
+  background: #140202;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: block;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  text-decoration: none;
+  color: #faf3f3;
+}
+
+.button_14_1 {
+  margin: 0 auto;
+  /* text-align: center;
+  align-items: center; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+
+/*section {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #e5e5e5;
 }
+
 .main,
 .news,
 .contacts,
 .portfolio,
 .items {
-  /* background-color: #c1b7b7; */
+ 
 }
 .menu_text {
   background: #c1b7b7;
@@ -109,7 +344,6 @@ section {
   margin-left: 25px;
   display: flex;
   flex-direction: column;
-  /* background: #e0e0e0; */
 }
 .main_text {
   font-style: normal;
@@ -157,12 +391,8 @@ section {
   justify-content: center;
   background: #e5e5e5;
 
-  transition: 0.5s;
-  /* transform: translateX(-100%); */
-}
-/* .menu_active {
-  transform: translateX(0%);
-} */
+  transition: 0.5s; }
+
 .menu-list {
   display: flex;
   justify-content: space-around;
@@ -180,7 +410,6 @@ section {
   width: 50px;
   height: 50px;
   font-size: 50px;
-  /* background-color: #333; */
   position: absolute;
   right: -35px;
   top: 10px;
@@ -191,7 +420,6 @@ section {
   position: relative;
   z-index: 0;
   margin-left: 200px;
-  /* transform: translateX(30%); */
 }
 .content_active {
   transform: translateX(30%);
@@ -313,8 +541,7 @@ section {
 
 .button_14_1 {
   margin: 0 auto;
-  /* text-align: center;
-  align-items: center; */
+
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -322,7 +549,7 @@ section {
   margin-top: 10px;
 }
 
-/*  */
+
 .contacts {
   width: 458px;
   height: 720.23px;
@@ -389,7 +616,6 @@ section {
 }
 #button_15 {
   text-decoration: none;
-  /* margin-top: 38px; */
 }
 #button_15:hover,
 .button_15:hover {
@@ -483,4 +709,4 @@ section {
 
 .card_check {
   margin-left: 5px;
-}
+} */

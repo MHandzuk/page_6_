@@ -62,8 +62,6 @@ body {
   float: left;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  /* width: 30%;
-  height: 300px; */
   width: 390px;
   height: 50px;
   margin-top: 200px;
@@ -76,7 +74,6 @@ body {
 }
 .tab button {
   display: block;
-  /* padding: 22px 16px; */
   width: 100%;
   border: none;
   outline: none;
@@ -85,7 +82,6 @@ body {
   transition: 0.3s;
   font-size: 17px;
   margin-top: 12px;
-
   background: #e0e0e0;
   width: 390px;
   height: 50px;
@@ -110,9 +106,8 @@ body {
 .tabcontent {
   float: left;
   padding: 0px 12px;
-  /* width: 70%; */
   border-left: none;
-  margin-left: 200px;
+  margin-left: 100px;
 }
 
 .main {
@@ -122,7 +117,7 @@ body {
   width: 558px;
   height: 398px;
   background: #e0e0e0;
-  margin-top: 16%;
+  margin-top: 120px;
 }
 .main_2 {
   padding: 27% 25%;
@@ -190,6 +185,7 @@ body {
   line-height: 29px;
   position: fixed;
   color: #000000;
+  margin-left: 40%;
 }
 .account:hover {
   opacity: 0.8;
@@ -199,6 +195,7 @@ body {
   width: 463px;
   height: 387.82px;
   background: #e0e0e0;
+  margin-top: 160px;
 }
 
 .news_1 {
@@ -298,8 +295,8 @@ body {
   width: 458px;
   height: 720.23px;
   background: #e0e0e0;
-  margin-top: 300px;
-  margin-bottom: 300px;
+  margin-top: 90px;
+  /* margin-bottom: 300px; */
 }
 .contacts_1 {
   padding: 15px 35px;
@@ -384,10 +381,11 @@ body {
   border: none;
 }
 
-.payment {
+.payment_11 {
   width: 555px;
   height: 398.11px;
   background: #e0e0e0;
+  margin-top: 160px;
 }
 
 .payment_1 {
